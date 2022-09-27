@@ -297,3 +297,27 @@
         Slash: 0.95
         Heat: 0.90
         Radiation: 0.75
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadSyndieRetroChicken
+  name: retro chicken mask
+  description: Do you like griefing other people?
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Helmets/retrochicken.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/retrochicken.rsi
+  - type: IdentityBlocker
+  - type: IngestionBlocker
+  - type: FlashImmunity
+  - type: EyeProtection
+  - type: ClothingSpeedModifier
+    walkModifier: 2.0
+    sprintModifier: 2.0
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 5.00
+        Slash: 5.00
+        Piercing: 5.00
